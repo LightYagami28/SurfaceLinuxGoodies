@@ -1,2 +1,2 @@
 #!/bin/bash
-gksu rmmod mwifiex_pcie && sleep 2 && gksu modprobe mwifiex_pcie
+sudo rmmod mwifiex_pcie && sleep 2 && sudo modprobe mwifiex_pcie
